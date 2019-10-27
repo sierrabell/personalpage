@@ -1,0 +1,82 @@
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #EF9A9A;
+}
+#welcome-header {
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size:22px;
+  padding-top: 50px;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  display: inline-block;
+  border-right: 4px solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  animation: typing 5s steps(30, end), blink .75s step-end infinite;
+  box-sizing: border-box;
+}
+@keyframes typing {
+  from {width:0}
+  to {width: 100%}
+}
+#welcome-body {
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size:22px;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #ba6b6c;
+  align-items: center;
+  margin: auto;
+  color: black; 
+
+}
+.nav-list {
+  display: flex;
+  color: black;
+  list-style-type: none;
+  justify-content: space-between;
+  font-family: 'Amatic SC';
+  font-size:22px;
+
+}
+li {
+  padding-left: 40px;
+  display: flex;
+  color: black;
+}
+#projects {
+  display: flex;
+  flex-direction: column;
+}
+#projects-page {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Amatic SC';
+  font-size:22px;
+  background-color: #ffcccb;
+  text-align: center;
+}
+#contact-page {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Amatic SC';
+  font-size:22px;
+  background-color: #EF9A9A;
+  text-align: center;
+}
+.projects-grif{
+  display: grid;
+}
